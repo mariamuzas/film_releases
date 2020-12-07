@@ -1,3 +1,6 @@
+import '../App.css';
+
+
 const Film = ({children, url}) => {
 
     return (

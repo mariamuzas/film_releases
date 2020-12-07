@@ -1,5 +1,6 @@
 import FilmRelease from "../components/FilmReleases.js";
 import {useState} from 'react';
+import '../App.css';
 
 const FilmReleaseConsole = () => {
 
@@ -32,11 +33,13 @@ const FilmReleaseConsole = () => {
 
     return (
         <>
-        <h2>FilmRelease console </h2>
         <FilmRelease films = {films} />
+        <hr />
+        <div className = "button">
         <form action=" https://www.imdb.com/calendar/?region=gb" target="_blank" >
              <input type="submit" value="View more upcoming releases" />
         </form>
+        </div>
         </>
     )
 }

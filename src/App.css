@@ -1,19 +1,34 @@
 .App {
-  text-align: center;
+  margin: 10% 20%;
+  font-size: calc(10px + 2vmin);
+  /* border: solid black 1px; */
+  /* text-align: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  position: relative;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  font-size: calc(10px + 2vmin);
+  background-color: rgb(231, 63, 63);
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-style: hidden;
 }
 
-.App-header {
+input:hover{
+  background-color: rgb(182, 33, 33);
+}
+
+
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
