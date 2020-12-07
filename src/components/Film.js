@@ -1,8 +1,8 @@
-const Film = () => {
+const Film = ({children, url}) => {
+
     return (
         <>
-        <p>Title</p>
-        <p>date</p>
+        <li><a href={url}>{children}</a></li>
         </>
     )
 }
