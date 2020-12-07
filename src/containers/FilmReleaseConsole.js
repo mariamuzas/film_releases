@@ -34,8 +34,8 @@ const FilmReleaseConsole = () => {
         <>
         <h2>FilmRelease console </h2>
         <FilmRelease films = {films} />
-        <form action=" https://www.imdb.com/calendar/?region=gb">
-             <input type="submit" target="_blank" value="View more upcoming releases" />
+        <form action=" https://www.imdb.com/calendar/?region=gb" target="_blank" >
+             <input type="submit" value="View more upcoming releases" />
         </form>
         </>
     )
