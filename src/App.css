@@ -14,7 +14,8 @@
 
 input {
   font-size: calc(10px + 2vmin);
-  background-color: rgb(231, 63, 63);
+  background-color: #D64541;
+  color: white;
   display: block;
   margin: 10px 0;
   padding: 10px;
@@ -26,6 +27,18 @@ input:hover{
   background-color: rgb(182, 33, 33);
 }
 
+li {
+  margin: 0 3em;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: #353535;
+}
+
+a:hover{
+  color: #a03531;
+}
 
 
 /* .App-header {
