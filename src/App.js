@@ -5,8 +5,6 @@ function App() {
   return (
     <>
       <div className="App">
-      <h1>Upcoming Film Releases for UK</h1>
-      <hr />
       <FilmReleaseConsole />
       </div>
     </>
